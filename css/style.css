@@ -3,7 +3,9 @@ body{
 }
 #first{
     font-size: 60px;
-    background-color: rgb(195, 236, 132);
+    background-image: url(../img/OIP.jfif);
+    background-repeat: no-repeat;
+    width: auto;
     margin: 0 auto;
     text-align: center;
 }
