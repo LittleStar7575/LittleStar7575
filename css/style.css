@@ -1,14 +1,36 @@
 body{
-    background-color: rgb(209, 233, 255);
+    background-image: url(../img/pipa.jfif);
+    background-repeat: repeat;
+    width: 100%;
 }
 #first{
     font-size: 60px;
-    background-image: url(../img/OIP.jfif);
+    background-image: url(../img/head.jfif);
     background-repeat: no-repeat;
-    width: auto;
+    background-size: 100%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 #url{
     background-color: rgb(126, 126, 255);
+}
+.text{
+    background-color: aliceblue;
+    width: 60%;
+    top: auto;
+    position:relative;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    top: 50px;
+}
+#a{
+    font-size: 10px;
+    background-color: antiquewhite;
+    top: 0;
 }
