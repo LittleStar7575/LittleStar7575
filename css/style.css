@@ -1,3 +1,12 @@
-div{
-    border:5px;
+body{
+    background-color: rgb(209, 233, 255);
+}
+#first{
+    font-size: 60px;
+    background-color: rgb(195, 236, 132);
+    margin: 0 auto;
+    text-align: center;
+}
+#url{
+    background-color: rgb(126, 126, 255);
 }
