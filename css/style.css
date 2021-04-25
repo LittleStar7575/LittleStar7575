@@ -46,3 +46,6 @@ body{
 .paragraph{
     word-break: keep-all;
 }
+button{
+    background-image: url(../img/background.png);
+}
