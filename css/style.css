@@ -38,7 +38,9 @@ body{
     font-size: 20px;
     background-color: rgb(191, 255, 231);
     top: 0;
-    width: 1024;
+   left: -286px;
+    width: 200%;
+    
     
 }
 .paragraph{
