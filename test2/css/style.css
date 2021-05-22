@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    color: #673929;
+}
+#container{
+    width: 900px;
+    margin: 0 auto;
+}
+#header{
+    height: 220px;
+    margin-bottom: 5px;
+    position: relative;
+}
+#icon-list{
+    position: absolute;
+    top: 170px;
+    right: 30px;
+    width: 130px;
+    height: 30px;
+    font-size: 0px;
+}
+#icon-list img{
+    margin-left: 5px;
+}
+#nav{
+    height: 30px;
+    margin: 5px;
+    background: #09c;
+    font: 18px/30px 微软雅黑;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+a:link{
+    color: #fff;
+    text-decoration: none;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
+#main{
+    background-color: #000;
+    height: 2050px;
+}
+#aside{
+    float: left;
+    width: 300px;
+    height: auto;
+    background-color: #6cf;
+    text-align: center;
+    font-size: 14px;
+}
+#aside h2{
+    margin: 20px;
+}
+#imglist{
+    width: 130px;
+    margin: 0 auto;
+}
+.polaroid{
+    width: 85px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #bfbfbf;
+    box-shadow: 2px 2px 4px #aaa;
+    border-radius: 5px;
+}
+.rotate_right{
+    -ms-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+.rotate_left{
+    -ms-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+#imglist img{
+    height: 95px;
+    width: 85px;
+    margin: 0 auto;
+    font-size: 0;
+}
+#imglist img:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#content{
+    float: right;
+    width: 595px;
+    margin-bottom: 5px;
+    background-color: #cff;
+}
+.subcont{
+    width: 570px;
+    margin: 10px auto;
+    clear: both;
+}
+.subcont img{
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    border: 1px dashed #000;
+}
+.subcont .subtext{
+    width: 60%;
+    float: left;
+    margin: 5px;
+}
+.subcont h2{
+    margin: 5px;
+}
+.subcont p{
+    font: 16px/2em 微软雅黑;
+}
+#footer{
+    height: 60px;
+    line-height: 60px;
+    background-color: #6cf;
+    clear: both;
+}
