@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <style>
+        table{
+            margin: 50px auto;
+        }
+        #litClass{
+            width: 100px;
+        }
+        #reg{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html">返回</a>
+    <table>
+        <caption>请填写信息进行注册</caption>
+        <tr>
+            <td><label for="username"></label>帐&nbsp&nbsp户:</td>
+            <td><input type="text" name="username"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="pwd">密&nbsp&nbsp码:</label></td>
+            <td><input type="password"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <label for="gender">性&nbsp&nbsp别</label>
+            <td>
+                <input type="radio" name="gender" value="man">男
+                &nbsp <input type="radio" name="gender" value="woman">女
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="hobby">爱好:</label></td>
+            <td>
+                <input type="checkbox" name="hobby" value="music">音乐
+                <input type="checkbox" name="hobby" value="exercise">体育
+                <input type="checkbox" name="hobby" value="art">艺术
+                <input type="checkbox" name="hobby" value="value">文学
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="class">文学类别</label></td>
+            <td>
+                <select name="litClass" id="litClass">
+                    <option value="ts">唐诗</option>
+                    <option value="sc">宋词</option>
+                    <option value="yq">元曲</option>
+                    <option value="xs">小说</option>
+                    <option value="gw">古文</option>
+                </select>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>个人简介</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="reg">
+                <input type="submit" value="注册">
+                <input type="reset" value="重置">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
