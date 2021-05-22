@@ -21,7 +21,7 @@ body {
 }
 #nav{
     height: 30px;
-    background: #09c;
+    background-image: url(../images/bar.jpg);
     margin-bottom: 5px;
 }
 #main{
