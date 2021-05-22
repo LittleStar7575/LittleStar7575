@@ -15,6 +15,7 @@ body {
     background-image: url(../images/bar.jpg);
     margin-bottom: 5px;
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 #nav{
     height: 30px;
