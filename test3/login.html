@@ -18,7 +18,7 @@
             border: 0;
             outline: none;
         }
-        box img{
+        .box img{
             position: absolute;
             top: 2px;
             right: 2px;
@@ -30,8 +30,25 @@
 <body>
     <div class="box">
         <label for="">
-            <img src="imgages/" alt="">
+            <img src="images/close.png" alt="" id="eye">
         </label>
+        <input type="password" name="" id="pwd">
     </div>
+    <script>
+        var eye=document.getElementById('eye');
+        var eye=document.getElementById('pwd');
+        var flag=0;
+        eye.onclick=function(){
+            if(flag==0){
+                pwd.type='text';
+                eye.src='images/open.png';
+                flag=1;
+            }else{
+                pwd.type='password';
+                eye.src='images/close.png';
+                flag=0;
+            }
+        }
+    </script>
 </body>
 </html>
