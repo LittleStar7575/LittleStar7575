@@ -12,16 +12,12 @@ body {
 }
 #header{
     height: 100px;
-    width: 900px;
-}
-#header{
-    height: 100px;
-    background: #6cf;
+    background-image: url(../images/bar.jpg);
     margin-bottom: 5px;
 }
 #nav{
     height: 30px;
-    background-image: url(../images/bar.jpg);
+    background:#6cf;
     margin-bottom: 5px;
 }
 #main{
