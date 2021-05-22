@@ -20,5 +20,30 @@ body {
     margin-bottom: 5px;
 }
 #nav{
-    
+    height: 30px;
+    background: #09c;
+    margin-bottom: 5px;
+}
+#main{
+    height: 500px;
+    margin-bottom: 5px;
+}
+.aside{
+    float: left;
+    width: 100px;
+    height: 500px;
+    background: #6cf;
+}
+#aside1{
+
+}
+#aside2{
+    margin-left: 5px;
+}
+#content{
+    float: left;
+    margin-left: 5px;
+    width: 690px;
+    height: 500px;
+    background: #6cf;
 }
