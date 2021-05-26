@@ -29,7 +29,7 @@ body {
     border-left: 1px solid;
 }
 #main{
-    height: 500px;
+    height: 1200px;
     margin-bottom: 5px;
 }
 .aside{
@@ -39,7 +39,7 @@ body {
     background: #6cf;
 }
 #aside1{
-    
+    height: 1200px;
 }
 #aside1 a{
     text-decoration: none;
@@ -59,13 +59,14 @@ body {
     line-height: 30px;
 }
 #aside2{
+    height: 1200px;
     margin-left: 5px;
 }
 #content{
     float: left;
     margin-left: 5px;
     width: 690px;
-    height: 500px;
+    height: 1200px;
     background: #6cf;
 }
 #footer{
@@ -100,8 +101,10 @@ h2{
 }
 #fix-left{
     left: 100px;
+    top: 150px;
 }
 #fix-right{
+    top: 150px;
     right: 100px;
 }
 .fix{

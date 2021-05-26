@@ -53,12 +53,12 @@ a:active{
 }
 #main{
     background-color: #000;
-    height: 2050px;
+    height: 1050px;
 }
 #aside{
     float: left;
     width: 300px;
-    height: 2048px;
+    height: 1048px;
     background-color: #6cf;
     text-align: center;
     font-size: 14px;
@@ -108,7 +108,7 @@ a:active{
 #content{
     float: right;
     width: 595px;
-    height: 2048px;
+    height: 1048px;
     margin-bottom: 5px;
     background-color: #cff;
 }
