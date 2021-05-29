@@ -114,12 +114,18 @@ h2{
 }
 .fix{
     width: 200px;
-    height: 400px;
+    height: 300px;
     border: 2px rgb(44, 41, 41) solid;
     position: fixed;
     top: 50px;
 }
 .fix img{
     width: 200px;
-    height: 400px;
+    height: 300px;
+}
+.close-left{
+    
+}
+.close-right{
+
 }

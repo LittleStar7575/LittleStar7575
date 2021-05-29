@@ -53,6 +53,7 @@
                 </p>
             </div>
             <div id="aside2" class="aside">
+                
             </div>
         </div>
         <div id="footer">
@@ -62,7 +63,23 @@
             </footer>
         </div>
     </div>
-    <div id="fix-left" class="fix"><img src="images/left.jpg" height="190" width="170" alt=""></div>
-    <div id="fix-right" class="fix"><img src="images/right.jpg" height="190" width="170" alt=""></div>
+    <div id="fix-left" class="fix"><img src="images/left.jpg" height="190" width="170" alt="">
+        <p class="close-left" style="background-color: antiquewhite;">关闭</p>
+    </div>
+    <div id="fix-right" class="fix"><img src="images/right.jpg" height="190" width="170" alt="">
+        <p class="close-right" style="background-color: antiquewhite;">关闭</p>
+    </div>
+    <script>
+        var left =document.querySelector('.close-left');
+        var leftad = document.querySelector('#fix-left');
+        left.onclick = function(){
+            leftad.style.display='none';
+        }
+        var right =document.querySelector('.close-right');
+        var rightad = document.querySelector('#fix-right');
+        right.onclick = function(){
+            rightad.style.display='none';
+        }
+    </script>
 </body>
 </html>
