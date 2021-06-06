@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册页面</title>
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/style.css">
     <style>
         table{
+            background-color: rgb(188, 242, 255);
             margin: 50px auto;
         }
         #litClass{
@@ -14,13 +16,14 @@
         }
         #reg{
             text-align: center;
+            margin: 0 auto;
+            padding:0 0 0 45%;
         }
     </style>
 </head>
-<body>
-    <a href="../index.html">返回</a>
+<body background="../images/bar.jpg">
     <table>
-        <caption>请填写信息进行注册</caption>
+        <caption style="background-color: rgb(212, 245, 245); border: 50px; border-color: aqua;">请填写信息进行注册</caption>
         <tr>
             <td><label for="username"></label>帐&nbsp&nbsp户:</td>
             <td><input type="text" name="username"></td>
@@ -29,6 +32,12 @@
         </tr>
         <tr>
             <td><label for="pwd">密&nbsp&nbsp码:</label></td>
+            <td><input type="password"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label for="pwd">确认密码:</label></td>
             <td><input type="password"></td>
             <td></td>
             <td></td>
@@ -80,12 +89,13 @@
             <td></td>
         </tr>
         <tr>
-            <td></td>
             <td id="reg">
-                <input type="submit" value="注册">
-                <input type="reset" value="重置">
+                <input type="submit" value="注册" style="background-color: rgb(59, 209, 84);"><br>
+                <input type="reset" value="重置"><br>
+                <input id="back" type="button" value="取消" onclick="javascript:history.back()">
             </td>
         </tr>
     </table>
+    
 </body>
 </html>

@@ -23,7 +23,7 @@ body {
 }
 #nav{
     height: 30px;
-    background:#ccc;
+    background:rgb(147, 176, 177);
     margin-bottom: 5px;
     font-size: 0;
     position: relative;
@@ -42,7 +42,7 @@ body {
     float: left;
     width: 100px;
     height: 500px;
-    background: rgb(179, 179, 179);
+    background: rgb(146, 172, 196);
 }
 #aside1{
     height: 1200px;
@@ -51,7 +51,7 @@ body {
     text-decoration: none;
 }
 #aside1 a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 #aside1 a:active{
@@ -79,7 +79,7 @@ body {
 }
 #footer{
     height: 60px;
-    background: rgb(187, 187, 187);
+    background: rgb(186, 192, 196);
     text-align: center;
 }
 #nav a{
@@ -127,8 +127,13 @@ h2{
     height: 300px;
 }
 .close-left{
-    margin: 0;
+    margin: 50;
+    text-align: center;
+    width: 60px;
 }
 .close-right{
     margin: 0;
+    text-align: center;
+    width: 60px;
+    float: right;
 }
