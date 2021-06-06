@@ -4,7 +4,7 @@
 }
 body{
     font-size: 16px;
-    color: #673929;
+    color: #e2e2e2;
 }
 #container{
     width: 900px;
@@ -29,7 +29,7 @@ body{
 #nav{
     height: 30px;
     margin: 5px;
-    background: #09c;
+    background: rgb(115, 117, 117);
     font: 18px/30px 微软雅黑;
     color: #fff;
     letter-spacing: 2px;
@@ -44,7 +44,7 @@ a:visited{
     text-decoration: none;
 }
 a:hover{
-    color: yellow;
+    color: rgb(134, 160, 163);
     text-decoration: none;
 }
 a:active{
@@ -59,7 +59,7 @@ a:active{
     float: left;
     width: 300px;
     height: 1048px;
-    background-color: #6cf;
+    background-color: rgb(125, 140, 145);
     text-align: center;
     font-size: 14px;
 }
@@ -110,7 +110,7 @@ a:active{
     width: 595px;
     height: 1048px;
     margin-bottom: 5px;
-    background-color: #cff;
+    background-color: rgb(104, 114, 128);
 }
 .subcont{
     width: 570px;
@@ -135,8 +135,10 @@ a:active{
     font: 16px/2em 微软雅黑;
 }
 #footer{
-    height: 60px;
-    line-height: 60px;
-    background-color: #6cf;
+    height: 100px;
+    line-height: 20px;
+    background-color: rgb(130, 144, 151);
     clear: both;
+    font-size: 1px;
+    text-align: center;
 }
