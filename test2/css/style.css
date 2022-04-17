@@ -11,13 +11,13 @@ body{
     margin: 0 auto;
 }
 #header{
-    height: 220px;
+    
     margin-bottom: 5px;
     position: relative;
 }
 #icon-list{
     position: absolute;
-    top: 170px;
+    
     right: 30px;
     width: 130px;
     height: 30px;
